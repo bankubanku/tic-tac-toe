@@ -1,0 +1,52 @@
+@font-face {
+    font-family: megufont;
+    src: url(Megufont-Regular.ttf);
+}
+
+* {
+    font-family: megufont, sans-serif;
+}
+
+#title, #points {
+    text-align: center;
+}
+
+#title {
+    font-size: 3rem;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+
+#points {
+    font-size: 2.5rem;
+}
+
+#container {
+    margin: auto;
+    width: 400px;
+}
+
+canvas {
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+}
+
+#buttons {
+    width: 350px;
+    margin: auto;
+    margin-top: 10%;
+    /* border: 1px solid black; */
+}
+
+button {
+    width: 150px;
+    margin: 0px;
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+#reset {
+    margin-right: 46px;
+}
+
