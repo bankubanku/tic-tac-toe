@@ -8,8 +8,6 @@ Simple and popular paper-and-pencil game's adaptation written in JavaScript. I'v
 - css
 - JavaScript
 
-## future development 
-I plan to make this app be more responsive and polished. 
 
 
 
