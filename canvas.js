@@ -30,7 +30,7 @@ const gameParams = {
 
 
 function mainCanvas() {
-    // assing canvas elemnent and its context to variables
+    // assinging canvas elemnent and its context to variables
     var canvas = document.getElementById("canvas")
     var ctx = canvas.getContext("2d");
 
@@ -115,8 +115,7 @@ function mainCanvas() {
 
     /**
      * if mouse is down, it checks if round is finished
-     * if round is finished, ????
-     * if round isn't finished, it call a function 
+     * if round isn't finished, it calls a function 
      */
     canvas.addEventListener('mousedown', function (e) {
         if (!isFinishedRound) {
@@ -124,7 +123,6 @@ function mainCanvas() {
         } 
 
     })
-    
 }
 
 /**
@@ -162,7 +160,7 @@ function whichField(x, y) {
  * changes player to one who's turn will be next, 
  * call a function which checks if someone won and assign it to a variable 
  * if someone won, it calls a function which ends a round 
- * if no one won, it calls mainCanvas() ????????
+ * if no one won, it calls mainCanvas() 
  */
 function turnMechanics(fieldNumber) {
     gameParams.chosenPositions[fieldNumber] = gameParams.whosTurn
@@ -187,7 +185,6 @@ function turnMechanics(fieldNumber) {
  * changes #points element to show current score 
  * changes player who will start next round to the opposite of the person who started finished round
  * reset chosen possitions 
- * ???? i don't know if it should call any funtion ????? 
  */
 function endRound(winner) {
     isFinishedRound = true
